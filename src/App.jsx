@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="App" data-theme={isDark ? "dark" : "light"}>
       <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-      <h1 className='title'>Welcome to Azizi Soft</h1>
+      <h1 className='title'>Welcome To Azizi Soft</h1>
       <div className="box">
         <h2>Software Solutions Company</h2>
       </div>
