@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import useLocalStorage from 'use-local-storage'
 
+
 const App = () => {
   // get user preference from their machine
   const preference = window.matchMedia("(preferes-color-shema: dark)").matches;
@@ -11,8 +12,8 @@ const App = () => {
   return (
     <div className="App" data-theme={isDark ? "dark" : "light"}>
       <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-        <img src="./logo.png" alt="" style={{ height:'200px' }} />
-      <h1 className='title' style={{ marginTop: '-38px' }}>Welcome To Azizi Hard</h1>
+        <img src="logo.png" alt="" style={{ height:'200px' }} />
+      <h1 className='title' style={{ marginTop: '-38px' }}>Welcome To Azizi Soft</h1>
       <div className="box">
         <h2>Software Solutions Company</h2>
       </div>
