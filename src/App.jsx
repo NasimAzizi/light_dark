@@ -12,7 +12,7 @@ const App = () => {
     <div className="App" data-theme={isDark ? "dark" : "light"}>
       <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
         <img src="./logo.png" alt="" style={{ height:'200px' }} />
-      <h1 className='title' style={{ marginTop: '-40px' }}>Welcome To Azizi Soft</h1>
+      <h1 className='title' style={{ marginTop: '-38px' }}>Welcome To Azizi Soft</h1>
       <div className="box">
         <h2>Software Solutions Company</h2>
       </div>
