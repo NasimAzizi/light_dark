@@ -14,9 +14,8 @@ const App = () => {
       <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
         <img src="logo.png" alt="" style={{ height:'200px' }} />
       <h1 className='title' style={{ marginTop: '-38px' }}>Welcome To Azizi Soft</h1>
-        <p>Our website is launching soon...</p>
       <div className="box">
-        <h2>Software Solutions Company</h2>
+        <h2>Our website is launching soon...</h2>
       </div>
     </div>
   )
