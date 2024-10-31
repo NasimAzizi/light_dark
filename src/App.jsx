@@ -15,6 +15,7 @@ const App = () => {
         <img src="logo.png" alt="" style={{ height:'200px' }} />
       <h1 className='title' style={{ marginTop: '-38px' }}>Welcome To Azizi Soft</h1>
       <div className="box">
+        <p>Our website is launching soon...</p>
         <h2>Software Solutions Company</h2>
       </div>
     </div>
