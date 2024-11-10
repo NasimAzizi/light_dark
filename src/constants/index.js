@@ -42,14 +42,22 @@ import mobile from "../assets/services/mobile.png"
 import ui from "../assets/services/ui.png"
 import graphicc from "../assets/services/graphicc.png"
 import marketing from "../assets/services/marketing.png"
-import ahmadyar from "../assets/ahmadyar.png"
+
+
 import ai from "../assets/ai.jpg"
-import mof from "../assets/mof.png"
 import wfp from "../assets/wfp.png"
 import ecom from '../assets/ecom.png'
 import wallet from '../assets/wallet.png'
 import wallet2 from '../assets/wallet2.png'
 import robot3 from '../assets/robot3.webp'
+
+import moc from '../assets/companies/moc.png'
+import mof from '../assets/companies/mof.png'
+import rupani from '../assets/companies/rupani.jpg'
+import afsotr from '../assets/companies/afsotr.png'
+import ahmadyar from '../assets/companies/ahmadyar.jpg'
+import kabuluni from '../assets/companies/kabuluni.jpg'
+
 
 export const navigation = [
   {
@@ -92,7 +100,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [mof, wfp, database, mobile, ahmadyar, marketing];
+export const companyLogos = [moc, mof, wfp, rupani, kabuluni, ahmadyar];
 
 export const brainwaveServices = [
   "E-Commerce Marketplace",
@@ -114,7 +122,7 @@ export const roadmap = [
   {
     id: "0",
     title: "Multi-Vendor E-commerce ",
-    text: "A highly secure e-commerce platform that incorporates blockchain-based payment options (e.g., Ethereum, Bitcoin) alongside traditional payment methods, providing transparency and decentralization to customers.",
+    text: "This marketplace fosters a sense of community by enabling users to follow one another, providing opportunities for meaningful connections. Each user’s profile includes their listed items, reviews, and a history of interactions, ensuring transparency and trust within the marketplace. Unlike traditional eCommerce platforms, our project removes the need for online payment processing, allowing buyers and sellers to transact directly. This approach not only makes the platform ideal for local exchanges but also builds trust and personal interaction among users. Our goal is to promote sustainable consumption and support individuals by giving their items a second life. By connecting people within their communities and facilitating the reuse of valuable resources, we’re creating a positive environmental impact and contributing to a circular economy. This platform is designed to be reliable, efficient, and easy to use, providing a valuable space for anyone looking to buy or sell quality pre-owned items while supporting their local community.",
     date: "2023",
     status: "done",
     imageUrl: ecom,
@@ -131,7 +139,7 @@ export const roadmap = [
   {
     id: "2",
     title: "Real-Time Collaboration",
-    text: "A web app that enables multiple users to collaborate in real-time on tasks like coding, graphic design, or document editing.",
+    text: "A web app that enables multiple users to collaborate in real-time on tasks like coding, graphic design, or document editing. Our real-time collaboration web app empowers teams to work together seamlessly on tasks like coding, graphic design, and document editing. With live updates and synchronized changes, multiple users can contribute, review, and refine projects simultaneously from anywhere, enhancing productivity and minimizing delays. Features like version control, in-app messaging, and role-based permissions ensure smooth collaboration and efficient workflow management, making it an ideal solution for dynamic teams and creative professionals seeking a unified workspace.",
     date: "2023",
     status: "done",
     imageUrl: roadmap3,
@@ -139,7 +147,7 @@ export const roadmap = [
   {
     id: "3",
     title: "Digital Wallet Platform",
-    text: "involves building a secure web or mobile application that allows users to store, manage, and transfer digital currencies or digital forms of fiat currency. This project combines secure data storage, integration with payment gateways or blockchain networks, and various security features to create a smooth, user-friendly experience for handling online transactions. Here’s a breakdown of key aspects and technologies for a digital wallet project",
+    text: "involves building a secure web or mobile application that allows users to store, manage, and transfer digital currencies or digital forms of fiat currency. This project combines secure data storage, integration with payment gateways or blockchain networks, and various security features to create a smooth, user-friendly experience for handling online transactions. Here’s a breakdown of key aspects and technologies for a digital wallet project. Our digital wallet platform provides users with a secure, user-friendly solution for storing, managing, and transferring digital assets, including digital currencies and fiat options. Built with robust encryption and multi-layer authentication, it prioritizes security and privacy, ensuring that users' transactions and data remain protected at all times.",
     date: "May 2023",
     status: "progress",
     imageUrl: wallet,
